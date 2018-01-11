@@ -28,6 +28,7 @@ ReactDOM.render(
                 <Route path='/' component={Phones} />
             </Route>
             <Route path='phones/:id' component={Phone} />
+            <Route path='categories/:id' component={Phones} />
         </Router>
     </Provider>,
     document.getElementById('root')
